@@ -1,0 +1,61 @@
+.precios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.precio {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: black !important;
+  color: white !important;
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0.5rem 0;
+
+    li {
+      padding: 0.5rem 0;
+      list-style: none;
+    }
+  }
+
+  &:hover {
+    background-color: brown !important;
+  }
+
+  button:hover {
+    background-color: #00796b;
+  }
+}
+
+.costo {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+}
+
+.bk-violet {
+  background-color: blueviolet !important;
+  color: white !important;
+
+  a {
+    color: white !important;
+  }
+
+  &:hover {
+    background-color: brown !important;
+  }
+}

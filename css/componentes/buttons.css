@@ -1,0 +1,20 @@
+.btn {
+  display: inline-block;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.5s, transform 0.5s;
+  background-color: #008CBA;
+  perspective: 1000px;
+}
+.btn:hover {
+  background-color: #4CAF50;
+  transform: rotateY(360deg);
+}
+.btn:active {
+  transform: scale(0.95);
+}
+
+/*# sourceMappingURL=buttons.css.map */

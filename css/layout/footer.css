@@ -1,0 +1,13 @@
+footer {
+  background-image: url("../imagenes/camuflaje.jpg");
+  background-size: cover;
+  color: #fff;
+  padding: 1rem;
+}
+footer p {
+  margin: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/*# sourceMappingURL=footer.css.map */

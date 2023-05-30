@@ -1,0 +1,52 @@
+.formulario-contacto {
+  width: 100%;
+}
+
+form {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+label {
+  justify-self: flex-start;
+  color: #f8f8f8;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+input[type=email] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+input[type=tel] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+}
+
+button:hover {
+  background-color: #2e2e2e;
+}
+
+/*# sourceMappingURL=contacto.css.map */

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+html {
+  font-size: 16px;  // Este es el tamaño base de fuente
+}
+
+body {
+  font-size: 1rem;  // 1rem = tamaño base de fuente
+}
+
+h1 {
+  font-size: 2rem;  // 2rem = 2 veces el tamaño base de fuente
+}
+
+body {
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  letter-spacing: 1px;
+}
+
+body {
+  color: #333;
+}
+
+
+h1 {
+    text-align: center;
+  }

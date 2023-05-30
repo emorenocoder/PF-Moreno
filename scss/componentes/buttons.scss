@@ -1,0 +1,24 @@
+$btn-bg-color: #008CBA; // color de fondo del botón
+$btn-hover-color: #4CAF50; // color de hover del botón
+$transition-time: 0.5s; // tiempo de transición
+
+.btn {
+  display: inline-block;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color $transition-time, transform $transition-time;
+  background-color: $btn-bg-color;
+  perspective: 1000px;
+
+  &:hover {
+    background-color: $btn-hover-color;
+    transform: rotateY(360deg);
+  }
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

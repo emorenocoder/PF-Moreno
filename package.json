@@ -1,0 +1,15 @@
+{
+  "name": "pre-entrega-edison-moreno",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git-emorenocoder:emorenocoder/paintball-revolution.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

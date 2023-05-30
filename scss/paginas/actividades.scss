@@ -1,0 +1,26 @@
+.main-actividades {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.actividad {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 auto;
+
+    img {
+        max-width: 200px;
+        height: 200px;
+    }
+
+    p {
+        flex: 1;
+        margin-right: 1rem;
+    }
+
+}
+
+.p-medio {
+    padding-left: 15px;
+}
