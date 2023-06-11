@@ -1,17 +1,60 @@
-/* Error: Undefined variable.
- *    ,
- * 14 |   background-color: $color-dark;
- *    |                     ^^^^^^^^^^^
- *    '
- *   scss\paginas\precios.scss 14:21  root stylesheet */
+p, h1, h2, h3 {
+  color: #f8f8f8;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a    \2577 \a 14 \2502    background-color: $color-dark;\d\a    \2502                      ^^^^^^^^^^^\a    \2575 \a   scss\\paginas\\precios.scss 14:21  root stylesheet";
+.precios {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.precio {
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+  width: 300px;
+  box-sizing: border-box;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+.precio:hover {
+  background-color: #1c2732;
+}
+.precio h2, .precio .costo {
+  margin: 0.5rem 0;
+}
+.precio h2 {
+  font-size: 1.5rem;
+}
+.precio .costo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.precio ul {
+  padding: 0;
+  margin: 0.5rem 0;
+  flex-grow: 1;
+}
+.precio ul li {
+  padding: 0.5rem 0;
+  list-style: none;
+}
+.precio button:hover {
+  background-color: #00796b;
+}
+
+.bk-violet {
+  background-color: blueviolet;
+  color: white;
+}
+.bk-violet a {
+  color: inherit;
+}
+.bk-violet:hover {
+  background-color: brown;
 }

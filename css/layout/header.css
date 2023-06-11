@@ -10,6 +10,11 @@ header {
 header nav {
   display: inline-block;
 }
+header nav button {
+  background-color: rgba(22, 77, 46, 0.74) !important;
+  display: block;
+  color: #fff !important;
+}
 header nav ul {
   display: flex;
   list-style: none;
@@ -22,9 +27,7 @@ header nav ul li {
 header nav ul li a {
   background-color: rgba(22, 77, 46, 0.74);
   display: block;
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   padding: 0.25rem 0.5rem;
 }
-
-/*# sourceMappingURL=header.css.map */

@@ -86,35 +86,7 @@ nav {
             }
         }
     }
-
-    @media (max-width: 768px) {
-        ul {
-            flex-direction: column;
-            li {
-                margin-bottom: 0.5rem;
-            }
-        }
-    }
 }
 
-@media (max-width: 768px) {
-    form {
-        grid-template-columns: 1fr;
-        label {
-            justify-self: stretch;
-        }
-        button {
-            grid-column: 1;
-        }
-    }
-}
 
-@media (max-width: 480px) {
-    .mapa {
-        iframe {
-            width: 100%;
-            height: 300px;
-        }
-    }
-}
 

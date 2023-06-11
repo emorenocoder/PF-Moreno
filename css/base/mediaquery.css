@@ -10,9 +10,8 @@
     align-items: center;
   }
   .actividad img, .actividad p {
-    max-width: 100%;
-    height: auto;
-    margin-right: 0;
+    max-width: 100% !important;
+    margin-left: 0;
   }
   .actividad img {
     margin-bottom: 1rem;
@@ -21,5 +20,32 @@
     padding-left: 0;
   }
 }
-
-/*# sourceMappingURL=mediaquery.css.map */
+@media (max-width: 768px) {
+  form {
+    grid-template-columns: 1fr;
+  }
+  form label {
+    justify-self: stretch;
+  }
+  form button {
+    grid-column: 1;
+  }
+}
+@media (max-width: 768px) {
+  ul {
+    flex-direction: column;
+  }
+  ul li {
+    margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 480px) {
+  .mapa iframe {
+    width: 100%;
+    height: 300px;
+  }
+  body {
+    background-image: none !important;
+    background-color: #00796b;
+  }
+}

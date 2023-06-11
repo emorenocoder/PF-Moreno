@@ -1,3 +1,5 @@
+@import './../basico/colors.scss';
+
 @mixin flex-center {
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +21,8 @@
   box-sizing: border-box;
   text-align: center;
   color: white;
+  display: flex;
+  flex-direction: column;
   
   &:hover {
     background-color: $color-darken;
@@ -40,6 +44,7 @@
   ul {
     padding: 0;
     margin: 0.5rem 0;
+    flex-grow: 1;
 
     li {
       padding: 0.5rem 0;

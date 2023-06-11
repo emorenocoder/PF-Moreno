@@ -6,25 +6,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="descripcion" content="Descubre nuestras emocionantes actividades de paintball. Ofrecemos una variedad de juegos, incluyendo captura de bandera, eliminación por rondas, y asalto al objetivo." />
-    <meta name="juegos_de_paintball" content="Actividades - Mi Sitio de Paintball" />
+    <meta name="juegos_de_paintball" content="Actividades - Mi Sitio de Paintball" />  
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/app.css">
+    <link rel="icon" href="../PreEntrega3-Moreno/imagenes/Pavicon.paintball.png" type="image/x-icon">
     <title>Actividades</title>
 </head>
 
 <body>
     <div class="contenedor">
         <header>
-            <a href="../index.html"><img src="../imagenes/paintball-logo-5.png" alt="Mi Sitio Logo"
-                    id="logo"></a>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="actividades.html">Actividades</a></li>
-                    <li><a href="galeria.html">Galería</a></li>
-                    <li><a href="precios.html">Precios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+            <a href="../index.html"><img src="../imagenes/paintball-logo-5.png" alt="Mi Sitio Logo" id="logo"></a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list"> Menu</i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
+                            <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                            <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
         <main class="main-actividades">
@@ -46,23 +54,22 @@
                 <p>
                     Asalto al objetivo: En esta actividad, se establece un objetivo o escenario específico que los jugadores deben alcanzar o completar. Puede ser tomar el control de un edificio, desactivar una bomba ficticia o rescatar a un rehén, entre otros ejemplos. Los equipos compiten por alcanzar el objetivo primero mientras se enfrentan a los disparos de los oponentes. Esta actividad combina la emoción de la competencia con la simulación de situaciones tácticas y estratégicas, fomentando el trabajo en equipo, la comunicación y la toma de decisiones rápidas.  
                 </p>
-                <script src="../js/bootstrap.min.js"></script>
-                <script src="../js/script.js"></script>        
             </div>
             <div class="video-wrapper">
-                <iframe width="500" height="315" src="https://www.youtube.com/embed/1GPErW8E73w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/1GPErW8E73w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-              
+            
             
         </main>
-
-
-
+        
+        
+        
         <footer>
             <p>&copy; 2023 Mi Sitio. Todos los derechos reservados.</p>
         </footer>
     </div>
-
+    
+    <script src="../js/bootstrap.bundle.min.js"></script>        
 </body>
 
 </html>

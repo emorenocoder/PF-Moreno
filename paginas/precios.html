@@ -7,24 +7,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="descripcion" content="Consulta nuestros precios de Paintball Revolution y elige el plan que mejor se adapte a tus necesidades. ¡Vive una experiencia única de paintball con nuestros planes Básico, Intermedio y Avanzado!" />
     <meta name="Paquetes_de_paintball" content="Precios - Paintball Revolution" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/app.css">
+    <link rel="icon" href="../PreEntrega3-Moreno/imagenes/Pavicon.paintball.png" type="image/x-icon">
     <title>Precios</title>
 </head>
 
 <body>
     <div class="contenedor">
         <header>
-            <a href="../index.html"><img src="../imagenes/paintball-logo-5.png" alt="Mi Sitio Logo"
-                    id="logo"></a>
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="nosotros.html">Nosotros</a></li>
-                    <li><a href="actividades.html">Actividades</a></li>
-                    <li><a href="galeria.html">Galería</a></li>
-                    <li><a href="precios.html">Precios</a></li>
-                    <li><a href="contacto.html">Contacto</a></li>
-                </ul>
+            <a href="../index.html"><img src="../imagenes/paintball-logo-5.png" alt="Mi Sitio Logo" id="logo"></a>
+            <nav class="navbar navbar-expand-lg">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="bi bi-list">Menu</i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+                            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                            <li class="nav-item"><a class="nav-link" href="actividades.html">Actividades</a></li>
+                            <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                            <li class="nav-item"><a class="nav-link" href="precios.html">Precios</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
         </header>
 
@@ -42,9 +50,6 @@
                         <li>Asesoramiento y supervisión de personal capacitado.</li>
 
                     </ul>
-                    <button class="quantity-button decrease">-</button>
-                    <input type="number" class="quantity-input" value="1" min="1">
-                    <button class="quantity-button increase">+</button>
                     <div>
                     <button class="btn">Comprar</button>
                  </div>
@@ -61,9 +66,6 @@
                         <li>Asesoramiento y supervisión de personal capacitado.</li>
                         <li>Refrescos y aperitivos incluidos.</li>
                     </ul>
-                    <button class="quantity-button decrease">-</button>
-                    <input type="number" class="quantity-input" value="1" min="1">
-                    <button class="quantity-button increase">+</button>
                     <div>
                     <button class="btn">Comprar</button>
                  </div>
@@ -82,9 +84,6 @@
                         <li>Fotografías digitales de la experiencia.</li>
                         <li>Certificado de logro en paintball.</li>
                     </ul>
-                    <button class="quantity-button decrease">-</button>
-                    <input type="number" class="quantity-input" value="1" min="1">
-                    <button class="quantity-button increase">+</button>
                     <div>
                     <button class="btn">Comprar</button>
                  </div>
@@ -95,7 +94,7 @@
             <p>&copy; 2023 Mi Sitio. Todos los derechos reservados.</p>
         </footer>
     </div>
-
+    <script src="../js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
