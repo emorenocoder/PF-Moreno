@@ -1,5 +1,10 @@
+$color-dark: black;
+$color-darken: darken(#2e4053, 10%);
+$color-hover: #00796b;
+$color-violet: blueviolet;
+$color-brown: brown;
 $color: #f8f8f8;
 
-p, h1,  h2 {
+p, h1, h2, h3 {
     color: $color;
 }

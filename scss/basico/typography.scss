@@ -16,7 +16,7 @@ body {
   font-size: 1rem;  // 1rem = tamaño base de fuente
 }
 
-h1 {
+h1, h3 {
   font-size: 2rem;  // 2rem = 2 veces el tamaño base de fuente
 }
 
@@ -33,6 +33,6 @@ body {
 }
 
 
-h1 {
+h1, h2, h3{
     text-align: center;
   }

@@ -3,7 +3,7 @@ $btn-hover-color: #4CAF50; // color de hover del botón
 $transition-time: 0.5s; // tiempo de transición
 
 .btn {
-  display: inline-block;
+  display: inline-block flex;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -22,3 +22,4 @@ $transition-time: 0.5s; // tiempo de transición
     transform: scale(0.95);
   }
 }
+

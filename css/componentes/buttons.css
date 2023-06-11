@@ -1,5 +1,5 @@
 .btn {
-  display: inline-block;
+  display: inline-block flex;
   border: none;
   color: white;
   padding: 15px 32px;
